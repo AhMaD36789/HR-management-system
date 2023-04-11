@@ -35,7 +35,7 @@ employee.prototype.render= function(){
     document.write(`${this.fullName} &emsp; ${this.salary()} `);
     document.write("<br>");
 }
-/* const employee1000 = new employee (1000,"Ghazi","Samer","Administration","Senior","url")
+ const employee1000 = new employee (1000,"Ghazi","Samer","Administration","Senior","url")
 const employee1001 = new employee (1001,"Lana","Ali","Finance","Senior","url")
 const employee1002 = new employee (1002,"Tamara","Ayoub","Marketing","Senior","url")
 const employee1003 = new employee (1003,"Safi","Walid","Administration","Mid-Senior","url")
@@ -49,4 +49,4 @@ employee1002.render();
 employee1003.render();
 employee1004.render();
 employee1005.render();
-employee1006.render(); */
+employee1006.render(); 
