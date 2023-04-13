@@ -1,4 +1,4 @@
-"use strict";
+/* "use strict";
 
 function employee(employeeID,firstName,lastName,Department,level,imgURL){
     this.employeeID=employeeID;
@@ -49,4 +49,4 @@ employee1002.render();
 employee1003.render();
 employee1004.render();
 employee1005.render();
-employee1006.render(); 
+employee1006.render();  */
