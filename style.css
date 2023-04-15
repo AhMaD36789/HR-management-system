@@ -1,0 +1,156 @@
+header {
+    text-align: center;
+    font-size: 2.3rem;
+    background-color: #123;
+    margin: -.5rem;
+}
+body{
+    background-color: rgb(36, 76, 115);
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 0;
+    
+}
+
+header ul li {
+    margin: 1.5rem 3rem 1.5rem 1rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+form {
+    width: 34%;
+    margin: .5rem -1rem 1rem -1rem;
+    padding: 0.1% 2%;
+    
+}
+
+fieldset {
+    margin: 0;
+    padding: 0 auto;
+    font-size: 21px;
+    border: 1px solid #fff;
+    color: #fff;
+    
+
+}
+
+input {
+    width: 100%;
+    margin: 0.6rem 0;
+    padding: 0.3rem 0;
+    
+    color: #123;
+}
+
+#department,
+#level {
+    width: 100%;
+    margin: 0.6rem 0;
+    padding: 0.4rem 0;
+}
+
+label {
+    font-size: 17px;
+}
+#submit{
+    color:#fff;
+    background-color: #123;
+    border: #000;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 4rem 1rem 0;
+    color:#fff;
+}
+
+#container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 7rem;
+    text-align: left;
+    padding: auto;
+}
+
+.cards {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .3);
+    transition: 0.3s;
+    text-align: center;
+    margin: 0.75rem;
+    background-color: #124;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.cards p {
+    margin: 0.6rem 0;
+
+}
+
+.cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 20, 1);
+}
+
+table{
+    width: 70%;
+    text-align: center;
+    border: 2px solid #fff;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-collapse:collapse;
+    height: 70%;
+    font-size: large;
+    
+}
+
+th,td{
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    color:#fff;
+    background-color: #123;
+    padding: 1rem;
+}
+
+
+
+footer{
+    bottom: 0;
+    position:fixed;
+    background-color: #123;
+    width: 100%;   
+    height: 7%;
+    color:#fff;
+    margin-left:-.5rem;
+    
+}
+footer section ul{
+    text-align: center;
+    padding: 3px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+footer section ul li{
+    padding: 3px;
+    margin: auto;
+    padding-bottom: 2rem;
+    list-style: none;
+}
+footer section ul li a{
+    color: #fff;
+    text-decoration: none;
+}
